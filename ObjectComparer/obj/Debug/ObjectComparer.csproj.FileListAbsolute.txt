@@ -1,0 +1,10 @@
+E:\ObjectComparer\bin\Debug\ObjectComparer.dll
+E:\ObjectComparer\bin\Debug\ObjectComparer.pdb
+E:\ObjectComparer\obj\Debug\ObjectComparer.csprojAssemblyReference.cache
+E:\ObjectComparer\obj\Debug\ObjectComparer.dll
+E:\ObjectComparer\obj\Debug\ObjectComparer.pdb
+E:\CustomObjectComparer_Tavisca_Machine_Test\ObjectComparer\bin\Debug\ObjectComparer.dll
+E:\CustomObjectComparer_Tavisca_Machine_Test\ObjectComparer\bin\Debug\ObjectComparer.pdb
+E:\CustomObjectComparer_Tavisca_Machine_Test\ObjectComparer\obj\Debug\ObjectComparer.csprojAssemblyReference.cache
+E:\CustomObjectComparer_Tavisca_Machine_Test\ObjectComparer\obj\Debug\ObjectComparer.dll
+E:\CustomObjectComparer_Tavisca_Machine_Test\ObjectComparer\obj\Debug\ObjectComparer.pdb
