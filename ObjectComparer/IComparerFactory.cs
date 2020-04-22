@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ObjectComparer
 {
-    public abstract class IComparerFactory
+    public interface IComparerFactory
     {
-        public abstract ICustomComparer GetCustomComparer();
+        ICustomComparer GetCustomComparer(object obj1, object obj2);
     }
 }
