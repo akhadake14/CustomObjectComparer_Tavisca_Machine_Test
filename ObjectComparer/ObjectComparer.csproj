@@ -41,18 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CollectionTypeComparer.cs" />
+    <Compile Include="CustomClasses\CollectionTypeComparer.cs" />
     <Compile Include="Comparer.cs" />
     <Compile Include="ComparerFactory.cs" />
-    <Compile Include="CustomComparer.cs" />
-    <Compile Include="DefaultComparer.cs" />
+    <Compile Include="CustomClasses\CustomComparer~.cs" />
+    <Compile Include="CustomClasses\DefaultComparer.cs" />
     <Compile Include="IComparerFactory.cs" />
     <Compile Include="ICustomComparer.cs" />
-    <Compile Include="NullValueComparer.cs" />
-    <Compile Include="ObjectTypeComparer.cs" />
+    <Compile Include="CustomClasses\NullValueComparer.cs" />
+    <Compile Include="CustomClasses\ObjectTypeComparer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StringComparer.cs" />
-    <Compile Include="ValueTypeComparer.cs" />
+    <Compile Include="CustomClasses\StringComparer.cs" />
+    <Compile Include="CustomClasses\ValueTypeComparer.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

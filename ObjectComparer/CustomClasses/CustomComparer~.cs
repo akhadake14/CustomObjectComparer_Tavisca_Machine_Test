@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ObjectComparer
 {
-    internal class CustomComparer : ICustomComparer
+     class CustomComparer : ICustomComparer
     {
         public bool AreSimilar<T>(T obj1, T obj2)
         {

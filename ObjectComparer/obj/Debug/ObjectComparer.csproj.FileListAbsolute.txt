@@ -10,5 +10,6 @@ E:\CustomObjectComparer_Tavisca_Machine_Test\ObjectComparer\obj\Debug\ObjectComp
 E:\CustomObjectComparer_Tavisca_Machine_Test\ObjectComparer\obj\Debug\ObjectComparer.pdb
 C:\Users\AbhijeetKhadake\Documents\GitHub\CustomObjectComparer_Tavisca_Machine_Test\ObjectComparer\bin\Debug\ObjectComparer.dll
 C:\Users\AbhijeetKhadake\Documents\GitHub\CustomObjectComparer_Tavisca_Machine_Test\ObjectComparer\bin\Debug\ObjectComparer.pdb
+C:\Users\AbhijeetKhadake\Documents\GitHub\CustomObjectComparer_Tavisca_Machine_Test\ObjectComparer\obj\Debug\ObjectComparer.csprojAssemblyReference.cache
 C:\Users\AbhijeetKhadake\Documents\GitHub\CustomObjectComparer_Tavisca_Machine_Test\ObjectComparer\obj\Debug\ObjectComparer.dll
 C:\Users\AbhijeetKhadake\Documents\GitHub\CustomObjectComparer_Tavisca_Machine_Test\ObjectComparer\obj\Debug\ObjectComparer.pdb
