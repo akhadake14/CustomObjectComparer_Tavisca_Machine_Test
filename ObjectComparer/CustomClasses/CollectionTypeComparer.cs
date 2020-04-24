@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ObjectComparer.Utility;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,10 @@ namespace ObjectComparer
 {
      class CollectionTypeComparer : ICustomComparer
     {
+        ICustomComparer comparerForRecursiveCall;
+
+        public ICustomComparer ComparerForRecursiveCall { get => comparerForRecursiveCall; set => comparerForRecursiveCall = value; }
+
         public bool AreSimilar<T>(T obj1, T obj2)
         {
             dynamic collection1 = obj1 as ICollection;
@@ -16,15 +21,15 @@ namespace ObjectComparer
 
             bool IsSimilar = false;
             if (obj1 != null || obj2 != null)
-            {
-                Comparer comparer = new Comparer();
+            {            
                 IsSimilar = false;
                 foreach (var item in collection1)
                 {
                     IsSimilar = false;
                     foreach (var item1 in collection2)
                     {
-                        if (!comparer.AreSimilar(item, item1))
+                        ComparerForRecursiveCall = ComparerHelper.GetComparer(item, item1);
+                        if (!ComparerForRecursiveCall.AreSimilar(item, item1))
                             continue;
 
                         IsSimilar = true;
